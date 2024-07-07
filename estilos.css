@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('WhatsApp Image 2024-07-04 at 6.22.48 AM.jpeg');
+    background-size: cover;
+    background-position: center;
+    animation: animacion-imagenes 3.5s steps(1) infinite;
+    width: 100%; 
+    
+}
+
+@keyframes animacion-imagenes {
+    0%, 10%, 15%, 25%, 45%, 50%, 55%, 70%, 75%, 80%, 85%, 100% {
+        background-image: url('WhatsApp Image 2024-07-04 at 6.22.48 AM.jpeg');
+    }
+    30%, 40% {
+        background-image: url('WhatsApp Image 2024-07-04 at 6.22.48 AM (1).jpeg');
+    }
+    60%, 65% {
+        background-image: url('WhatsApp Image 2024-07-04 at 6.22.48 AM (2).jpeg');
+    }
+    90%, 95% {
+        background-image: url('WhatsApp Image 2024-07-04 at 6.22.48 AM (3).jpeg');
+    }
+}
+
+@font-face {
+    font-family: 'MeltedMoster';
+    src: url(Melted\ Monster.ttf)
+    format('TrueType');
+    
+}
+
+
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+a:hover{
+    text-decoration: none; 
+}
+
+
+
+/* menu principal */
+.menu {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    font-family: 'MeltedMoster',sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    display: block;
+    
+}
+
+.menu ul li a:hover {
+    background-color: rgba(245, 239, 239, 0.863);
+    color: red;
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+/* -------------------------------------- */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: aliceblue;
+}
+
+
+
+.imagenText img {
+    width: 50%; 
+    max-width: 500px; 
+    height: auto; 
+    position: absolute;
+    top: 34%; 
+    left: 9%;
+}
+
+.texto {
+    display: flex;
+    font-size: 3vw; 
+    margin-top: 58vh; 
+    margin-right: 48vw; 
+    height: auto; 
+    position: absolute;
+}
+
+.texto p {
+    margin: 5px;
+}
+
+.texto :hover{
+    color: red;
+    cursor: pointer;
+    transform: scale(1.4);
+    font-family: 'MeltedMoster',sans-serif;
+}
+
