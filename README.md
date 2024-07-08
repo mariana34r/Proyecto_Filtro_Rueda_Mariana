@@ -34,6 +34,12 @@ las letras y ellas cambian de fuente.
 
 
 
+
+Pagina Historia:
+En esta parte de la pagina se cuentran los 2 suscesos mas importantes 
+de fnaf.
+
+
 Pantallas pequeñas:
 En pantallas pequeñas el menu principal desparece y se convierte en un boton de menu.
 

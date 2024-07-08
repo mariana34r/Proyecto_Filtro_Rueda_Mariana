@@ -84,6 +84,16 @@ body {
 
 
 
+@font-face {
+    font-family: 'HappySchool';
+    src: url(Happy\ School.ttf)
+    format('TrueType');
+    
+}
+
+
+
+
 /* ----------------------------------------------- */
 
 
@@ -224,7 +234,8 @@ body {
 
 
 
-.container{
+
+.container1{
     width: 80%;
     height: 800px;
     background-color: #dfdfdf41;
@@ -233,13 +244,30 @@ body {
     margin: 90px  auto 0;
     text-align: left;   
 }
+
+.container2{
+    width: 80%;
+    height: 1020px;
+    background-color: #dfdfdf41;
+    position: relative;
+    display: block;
+    margin: 90px  auto 0;
+    text-align: left;   
+}
+
+
+
+
 h1 {
     cursor: pointer;
     transform: scale(1.2);
+    font-family: 'MeltedMoster';
     color: #000000;
-    text-shadow: 0 0 10px rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(255, 0, 0);
     text-align: left;
-    padding-left: 280px; /* Ajusta el valor según sea necesario para mover el texto a la derecha */
+    padding-left: 300px; /* Ajusta el valor según sea necesario para mover el texto a la derecha */
+    padding-top: 10px;
+    font-size: 50px;
 }
 
 
@@ -266,12 +294,153 @@ h1:hover{
 
 p{
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Arial', sans-serif; /* Ejemplo de fuente diferente */
     padding-left: 50px; 
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    padding-top: 8px;
+    font-family: 'HappySchool';
+}
+
+h4 {
+    font-size: 30px;
+    font-family: 'Arial', sans-serif; /* Ejemplo de fuente diferente */
+    padding-left: 50px; 
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    padding-top: 0; /* Ajusta el valor según sea necesario */
+    margin-top: -10px; /* Ajusta el valor negativo para subir el título */
+    font-family: 'HappySchool'; /* No es necesario repetir esta propiedad si ya está definida */
+}
+
+
+
+
+
+h3{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-family: 'MeltedMoster', sans-serif; /* Asegúrate de tener fuentes alternativas si es necesario */
+    color: #000000;
+    text-shadow: 0 0 10px rgb(255, 0, 0);
+    padding-left: 15%; /* Ajusta según sea necesario para mover el texto a la derecha */
+    font-size: 28px; /* Tamaño de fuente base */
+
+
 
 }
+
+
+
+
+
+h2 {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-family: 'MeltedMoster', sans-serif; /* Asegúrate de tener fuentes alternativas si es necesario */
+    color: #000000;
+    text-shadow: 0 0 10px rgb(255, 0, 0);
+    padding-left: 15%; /* Ajusta según sea necesario para mover el texto a la derecha */
+    padding-top: 30px;
+    font-size: 28px; /* Tamaño de fuente base */
+}
+
+h5 {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-family: 'MeltedMoster', sans-serif; /* Asegúrate de tener fuentes alternativas si es necesario */
+    color: #000000;
+    text-shadow: 0 0 10px rgb(255, 0, 0);
+    padding-left: 22%; /* Ajusta según sea necesario para mover el texto a la derecha */
+    padding-top: 30px;
+    font-size: 28px; /* Tamaño de fuente base */
+    
+}
+
+
+h5:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-family: 'MeltedMoster';
+    color: #ff0c0c;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    h2 {
+        padding-left: 15%; /* Ajuste para pantallas más pequeñas */
+        font-size: 20px; /* Reducir el tamaño de fuente para pantallas más pequeñas si es necesario */
+    }
+}
+
+h2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-family: 'MeltedMoster';
+    color: #ff0c0c;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+
 
 
 .img_ffddyy{
-    padding-left: 80px; 
+    padding-left: 220px;
+    max-width: 100%; /* La imagen no superará el ancho máximo del contenedor */
+    height: 40%; /* La altura se ajusta automáticamente para mantener la proporción */
 }
+
+
+
+
+
+
+.img_ffddyy2 {
+    max-width: 100%; /* La imagen no superará el ancho máximo del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    padding-left: -150px; /* Ajusta el padding izquierdo según sea necesario */
+}
+
+/* Media query para dispositivos móviles con pantalla pequeña, como celulares */
+@media (max-width: 480px) {
+    .img_ffddyy2 {
+        max-width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+    }
+}
+
+
+@media (max-width: 768px){
+    .img_ffddyy{
+        padding-left: 8%;
+    }
+}
+
+
+
+
+
+
+
+.imv img {
+    width: 100px; 
+    height: auto;
+    border-radius: 50%; 
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    position: fixed;
+    bottom: 38px; 
+    right: 30px; 
+    z-index: 1000; 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.imv :hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+/* https://pa1.aminoapps.com/6484/2f84cbc313acee0ccac7f169b1dc8d183cb381e4_00.gif */
