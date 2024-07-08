@@ -1,0 +1,277 @@
+body {
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url('imagenfreddy1.1.png');
+    background-size: cover;
+    background-position: center;
+    animation: animacion-imagenes 1.2s steps(1) infinite;
+    background-attachment: fixed;
+    
+}
+
+
+@keyframes animacion-imagenes{
+    0% {
+        background-image: url('imagenfreddy1.1.png');
+    }
+
+    10% {
+        background-image: url('imagenfreddy1.1.png');
+    }
+
+    20% {
+        background-image: url('imagenfreddy1.1.png');
+    }
+
+    30% {
+        background-image: url('imagenfreddy1.1.png');
+    }
+
+
+    50% {
+        background-image: url('imagenfreddy2.2.png');
+    }
+
+    60% {
+        background-image: url('imagenfreddy2.2.png');
+    }
+
+    70% {
+        background-image: url('imagenfreddy3.3.png');
+    }
+
+
+    80% {
+        background-image: url('imagenfreddy4.4.png');
+    }
+
+
+    100% {
+        background-image: url('imagenfreddy4.4.png');
+    }
+
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+
+
+@media (max-width: 768px) {
+    .content {
+        padding: 10px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'MeltedMoster';
+    src: url(Melted\ Monster.ttf)
+    format('TrueType');
+    
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.562); 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    font-family: 'MeltedMoster',sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ccc4c4;
+    padding: 10px 15px;
+    display: block;
+    
+}
+
+.menu ul li a:hover {
+    background-color: rgba(245, 239, 239, 0.863); 
+    color: red;
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+
+
+@media (max-width: 768px) {
+    .menu {
+        display: none; 
+    }
+
+    body{
+        background-position: right;
+    }
+}
+
+
+
+
+/* ----------------------------------------------- */
+
+.medeplejable-toggle {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.medeplejable-toggle input[type="checkbox"] {
+    display: none;
+}
+
+
+
+.medeplejable-icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.medeplejable-icon img {
+    width: 60px; 
+    height: auto;
+    border-radius: 50%; 
+    border: 2px solid #dfdfdf; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease;
+}
+
+
+
+.medeplejable-icon :hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+.medeplejable {
+    display: none;
+    position: absolute;
+    top: 80px; 
+    right: 10px; 
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.medeplejable ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.medeplejable ul li {
+    margin-bottom: 10px;
+}
+
+.medeplejable ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.medeplejable ul li a:hover {
+    color: #ff0c0c;
+}
+
+#toggle:checked ~ .medeplejable {
+    display: block; 
+}
+
+
+#toggle:checked + .medeplejable-icon img {
+    transform: rotate(90deg); 
+}
+
+
+
+
+.container{
+    width: 80%;
+    height: 800px;
+    background-color: #dfdfdf41;
+    position: relative;
+    display: block;
+    margin: 90px  auto 0;
+    text-align: left;   
+}
+h1 {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #000000;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    text-align: left;
+    padding-left: 280px; /* Ajusta el valor según sea necesario para mover el texto a la derecha */
+}
+
+
+h1:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    font-family: 'MeltedMoster';
+    color: #ff0c0c;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        padding-left: 12%; /* Ajuste para pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        padding-left: 2em; /* Ajuste adicional para pantallas aún más pequeñas */
+    }
+}
+
+
+p{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px; 
+
+}
+
+
+.img_ffddyy{
+    padding-left: 80px; 
+}

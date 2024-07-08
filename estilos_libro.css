@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-position: center;
     animation: animacion-imagenes 3.5s steps(1) infinite;
+    background-attachment: fixed;
 }
 
 @keyframes animacion-imagenes {
@@ -547,4 +548,15 @@ body {
         width: 50%;
         margin-bottom: 20px;
     }
+}
+
+
+
+.container{
+    width: 80%;
+    height: 800px;
+    position: relative;
+    display: block;
+    margin: 90px  auto 0;
+    text-align: left;
 }
