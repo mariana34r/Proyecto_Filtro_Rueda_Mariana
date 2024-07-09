@@ -265,8 +265,7 @@ h1 {
     color: #000000;
     text-shadow: 0 0 10px rgb(255, 0, 0);
     text-align: left;
-    padding-left: 300px; /* Ajusta el valor según sea necesario para mover el texto a la derecha */
-    padding-top: 10px;
+    padding-left: 300px; 
     font-size: 50px;
 }
 
@@ -281,20 +280,20 @@ h1:hover{
 
 @media (max-width: 768px) {
     h1 {
-        padding-left: 12%; /* Ajuste para pantallas más pequeñas */
+        padding-left: 12%; 
     }
 }
 
 @media (max-width: 480px) {
     h1 {
-        padding-left: 2em; /* Ajuste adicional para pantallas aún más pequeñas */
+        padding-left: 2em; 
     }
 }
 
 
 p{
     font-size: 30px;
-    font-family: 'Arial', sans-serif; /* Ejemplo de fuente diferente */
+    font-family: 'Arial', sans-serif; 
     padding-left: 50px; 
     text-shadow: 0 0 10px rgb(255, 255, 255);
     padding-top: 8px;
@@ -303,12 +302,12 @@ p{
 
 h4 {
     font-size: 30px;
-    font-family: 'Arial', sans-serif; /* Ejemplo de fuente diferente */
+    font-family: 'Arial', sans-serif; 
     padding-left: 50px; 
     text-shadow: 0 0 10px rgb(255, 255, 255);
-    padding-top: 0; /* Ajusta el valor según sea necesario */
-    margin-top: -10px; /* Ajusta el valor negativo para subir el título */
-    font-family: 'HappySchool'; /* No es necesario repetir esta propiedad si ya está definida */
+    padding-top: 0; 
+    margin-top: -10px; 
+    font-family: 'HappySchool'; 
 }
 
 
@@ -318,11 +317,11 @@ h4 {
 h3{
     cursor: pointer;
     transform: scale(1.2);
-    font-family: 'MeltedMoster', sans-serif; /* Asegúrate de tener fuentes alternativas si es necesario */
+    font-family: 'MeltedMoster', sans-serif; 
     color: #000000;
     text-shadow: 0 0 10px rgb(255, 0, 0);
-    padding-left: 15%; /* Ajusta según sea necesario para mover el texto a la derecha */
-    font-size: 28px; /* Tamaño de fuente base */
+    padding-left: 15%; 
+    font-size: 28px; 
 
 
 
@@ -335,23 +334,23 @@ h3{
 h2 {
     cursor: pointer;
     transform: scale(1.2);
-    font-family: 'MeltedMoster', sans-serif; /* Asegúrate de tener fuentes alternativas si es necesario */
+    font-family: 'MeltedMoster', sans-serif; 
     color: #000000;
     text-shadow: 0 0 10px rgb(255, 0, 0);
-    padding-left: 15%; /* Ajusta según sea necesario para mover el texto a la derecha */
+    padding-left: 15%; 
     padding-top: 30px;
-    font-size: 28px; /* Tamaño de fuente base */
+    font-size: 28px; 
 }
 
 h5 {
     cursor: pointer;
     transform: scale(1.2);
-    font-family: 'MeltedMoster', sans-serif; /* Asegúrate de tener fuentes alternativas si es necesario */
+    font-family: 'MeltedMoster', sans-serif; 
     color: #000000;
     text-shadow: 0 0 10px rgb(255, 0, 0);
-    padding-left: 22%; /* Ajusta según sea necesario para mover el texto a la derecha */
+    padding-left: 22%; 
     padding-top: 30px;
-    font-size: 28px; /* Tamaño de fuente base */
+    font-size: 28px;
     
 }
 
@@ -366,11 +365,11 @@ h5:hover{
 
 
 
-/* Media query para pantallas más pequeñas */
+
 @media (max-width: 768px) {
     h2 {
-        padding-left: 15%; /* Ajuste para pantallas más pequeñas */
-        font-size: 20px; /* Reducir el tamaño de fuente para pantallas más pequeñas si es necesario */
+        padding-left: 15%;
+        font-size: 20px; 
     }
 }
 
@@ -387,8 +386,8 @@ h2:hover{
 
 .img_ffddyy{
     padding-left: 220px;
-    max-width: 100%; /* La imagen no superará el ancho máximo del contenedor */
-    height: 40%; /* La altura se ajusta automáticamente para mantener la proporción */
+    max-width: 100%; 
+    height: 40%; 
 }
 
 
@@ -397,15 +396,15 @@ h2:hover{
 
 
 .img_ffddyy2 {
-    max-width: 100%; /* La imagen no superará el ancho máximo del contenedor */
-    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
-    padding-left: -150px; /* Ajusta el padding izquierdo según sea necesario */
+    max-width: 100%; 
+    height: auto; 
+    padding-left: -150px; 
 }
 
-/* Media query para dispositivos móviles con pantalla pequeña, como celulares */
+
 @media (max-width: 480px) {
     .img_ffddyy2 {
-        max-width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+        max-width: 100%; 
     }
 }
 
@@ -442,5 +441,3 @@ h2:hover{
 }
 
 
-
-/* https://pa1.aminoapps.com/6484/2f84cbc313acee0ccac7f169b1dc8d183cb381e4_00.gif */
