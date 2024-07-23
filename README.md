@@ -8,7 +8,7 @@ Este proyecto es una página dedicada al videojuego de terror Five Nights At Fre
 |--|--|
 | 1. | [Descripción](#Descripcion) |
 | 2. | [Funcionalidades](#Funcionalidades) |
-| 3. | [Captura de pantalla](#Captura de pantalla) |
+| 3. | [Captura de pantalla](#Captura_de_pantalla) |
 | 4. | [Tecnologías Utilizadas](#Tenologia_Usada) |
 | 5. | [Instrucciones de Ejecución](#Instrucciones) |
 | 6. | [Autores](#Autores) |
