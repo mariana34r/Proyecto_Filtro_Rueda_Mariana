@@ -1,101 +1,78 @@
-# Proyecto_Filtro_HTML
-***
-Esta es una Pagina Sobre el videojugeo de terror Five Night At Freddy's
-este sitio contine informacion sobre los juegos libros y persomajes del juego
+# 🎮 Five night at freddy's "Pagina" 🎮
 
-Pagina Home:
-
-Pagina Home presenta el juego y 3 de sus peronajes 
-
-en las letras you can survive al darle clikc mostrara el scare de freddy.
+Este proyecto es una página dedicada al videojuego de terror Five Nights At Freddy's (Fnaf). Aquí encontrarás información sobre los juegos, libros y personajes del juego.
 
 
+## Tabla de contenido
+| Indice | Título  |
+|--|--|
+| 1. | [Descripción](#Descripcion) |
+| 2. | [Funcionalidades](#Funcionalidades) |
+| 3. | [Captura de pantalla](#Captura de pantalla) |
+| 4. | [Tecnologías Utilizadas](#Tenologia_Usada) |
+| 5. | [Instrucciones de Ejecución](#Instrucciones) |
+| 6. | [Autores](#Autores) |
 
 
-Pagina Jugeos:
-En la Pagina Juegos se encutran casi todos los jugeos de fnaf 
-y al darle click en algun juego lo lleva a la pagina de steam
-de su respectivo juego , y al rozar cn el cursor cambia el tipo de letra y el clor de fondo de cada juego.
-
-
-Pagina Libros:
-En esta secccion de la pagina se encuentran algunos 
-de los libros canonicos de fnaf , y al dar click en alguno lo
-llevara a la pagina de steam de fnaf y al rozar cada libro 
-con el cursorse aumenta un poco su tamaño
-y tambien al rozar las letras de titulo
-cambian de fuente y de color.
-
-
-Pagina Personajes:
-En este pagina se encuentran la maypria de peronajes de fnaf
-al rozar la imagen con el cursor aumenta de tamaño lo mismo 
-las letras y ellas cambian de fuente.
+## Descripcion🚀
+Esta Pagina está diseñada para que los fans de Fnaf puedan explorar y conocer más sobre este emocionante universo de terror. Siéntete libre de navegar por las diferentes secciones y sumergirte en la historia y los detalles de este juego.
 
 
 
 
-Pagina Historia:
-En esta parte de la pagina se cuentran los 2 suscesos mas importantes 
-de fnaf.
+## Funcionalidades 🛠️
 
+- **Pagina Home**: Presenta el juego y tres de sus personajes principales. Al hacer clic en "you can survive", se mostrará el susto de Freddy.
 
-Pantallas pequeñas:
-En pantallas pequeñas el menu principal desparece y se convierte en un boton de menu.
+- **Pagina Juegos**: Incluye la lista de juegos de Fnaf. Al hacer clic en cada juego, te llevará a la página correspondiente en Steam. Además, al pasar el cursor sobre cada juego, el tipo de letra y el color de fondo cambian.
 
+- **Pagina Libros**: Aquí se encuentran algunos de los libros canónicos de Fnaf. Al hacer clic en uno, te llevará a la página de Steam de Fnaf. Al pasar el cursor sobre cada libro, aumenta ligeramente su tamaño y cambia la fuente y el color del título.
 
+- **Pagina Personajes**: Muestra la mayoría de los personajes de Fnaf. Al pasar el cursor sobre la imagen de cada personaje, aumenta de tamaño junto con las letras, las cuales cambian de fuente.
 
+- **Pagina Historia**: Aquí se detallan los dos eventos más importantes de la historia de Fnaf.
 
-La estructura de este proyecto es de la siguiente manera:
-
-inicio.html = Pagina Home
-
-juegos.html = Pagina en donde se encuentran los juegos
-
-libros.html = pagina sobre los libros de Fnaf
-
-personajes.html = Pagina donde muestra algunos personajes de fnaf
+- **Pantallas pequeñas**: En pantallas pequeñas, el menú principal se convierte en un botón de menú para mejorar la navegación.
 
 
 
+## Capturas de la Página 📷
+
+### Captura de la Seccion Home
+![Captura del Home](https://github.com/user-attachments/assets/65190762-5136-426c-bac7-fed620a77fde)
+
+### Captura de la Seccion Juegos
+![Captura del Home](https://github.com/user-attachments/assets/f77079ce-9e22-47a7-b810-aede1923f378)
+
+
+### Captura de la Seccion Libros
+![Captura del Home](https://github.com/user-attachments/assets/cab2a09a-9a53-4a07-a744-4cc708fd1fd3)
+
+
+### Captura de la Seccion Personajes
+![Captura del Home](https://github.com/user-attachments/assets/4c1b4ebd-b57b-4176-8caf-58f84b30197f)
+
+### Captura de la Seccion Historia
+![Captura del Home](https://github.com/user-attachments/assets/19bfd768-8cdf-42d3-a8a9-148ce3dfb41b)
+
+## Tecnologías Utilizadas 📱
+
+- HTML y CSS
+
+## Instrucciones📐
+
+1. Clona el repositorio a tu máquina local. 
+2. Configura adecuadamente todo lo adecuado drespecto a python.
+3. Ejecuta el proyecto desde la terminal.
+
+
+## Autores👤
+
+[Mariana Rueda](https://github.com/mariana34r)
 
 
 
 
---Css
-
--estilos.css = Estilos de la pagina de inicio
-
--estilos_jueg.css = Estilos de la pagina juegos
-
--estilos_libro.css = Estilos de la pagina Libros
-
--estilos_pers.css = Estilos de la pagina personajes
-
--Imagenes
-
-Imagenes de la seccion Home:
--WhatsApp Image 2024-07-04 at 6.22.48 AM.jpeg
--WhatsApp Image 2024-07-04 at 6.22.48 AM (1).jpeg
--WhatsApp Image 2024-07-04 at 6.22.48 AM (2).jpeg
--WhatsApp Image 2024-07-04 at 6.22.48 AM (3).jpeg
-
-Imagenes de la secccion Jugeos:
--imag1.jpeg
--imag2.jpeg
--img3.jpeg
-
-Imagenes de la seccion Libros:
--ingfnaf1.png
--infnaf2.png
--ingfnaf3.png
-
-Imagenes de la Seccion Personajes:
--Imgfreddy1.jpeg
--imgfreddy2.jpeg
--imgfreddy3.jpeg
--imgfreddy4.jpeg
--imagfreddy5.jpeg
 
 
 
