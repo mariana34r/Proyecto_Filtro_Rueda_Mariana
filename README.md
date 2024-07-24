@@ -38,7 +38,7 @@ Esta Pagina está diseñada para que los fans de Fnaf puedan explorar y conocer 
 
 ## Capturas de la Página 📷
 
-### Captura de la Seccion Home
+### Captura de la Seccion Home 🐻
 ![Captura del Home](https://github.com/user-attachments/assets/65190762-5136-426c-bac7-fed620a77fde)
 
 ### Captura de la Seccion Juegos
